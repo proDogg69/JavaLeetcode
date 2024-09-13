@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class ValidParentheses {
     public static void main(String[] args) {
-        String set = ")(){}";
+        String set = ")()";
         Stack<Character> stack = new Stack<Character>();
         boolean state = true;
         for (int i = 0; i < set.length(); i++) {
